@@ -2,8 +2,8 @@ import express from "express";
 import books from './books.routes.js';
 
 const output = {
-    titulo: "Curso de Construção de API", 
-    tecnologias_envolvidas: {
+    title: "API Building", 
+    stack: {
         programing_language: "JavaScript", 
         environment: "NodeJS", 
         framework: "Express", 
