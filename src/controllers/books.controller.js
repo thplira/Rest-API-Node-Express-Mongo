@@ -56,7 +56,7 @@ class BookController {
     // DELETE
     static removeBook = (req, res) => {
         const id = req.params.id;
-        books.remove(id, (err) => {
+        books.remove({id}, (err) => {
             if (!err) {
                 res.status(200)
                    .send({message: `Book ${id} removed`});
